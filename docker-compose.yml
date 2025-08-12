@@ -1,11 +1,11 @@
 version: '3.8'
 services:
-    znc:
-        image: znc
-        ports:
-            - "4721:4721"
-        volumes:
-            - znc-data:/znc-data
-        restart: "no"
-volume:
-    znc-data:
+  znc:
+    image: znc
+    ports:
+      - "4721:4721"
+    volumes:
+      - znc-data:/znc-data
+    restart: "no"
+volumes:
+  znc-data:
