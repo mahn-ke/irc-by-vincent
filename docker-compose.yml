@@ -2,7 +2,7 @@
 version: '3.8'
 services:
   znc:
-    image: znc:latest@sha256:e0501a44a45a625c4255f1470cbd57436c03a9592a3f6668278a0fdfe43bf8c5
+    image: znc:latest@sha256:79c84323411966378dbce62c0af4a5a6ed809d20154431475fde0c129cef35aa
     ports:
       - "4722:4722"
     volumes:
